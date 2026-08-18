@@ -4,22 +4,22 @@
 
 Возьмём:
 
-departments
+| id | name   | department_id | salary |
+| -: | ------ | ------------: | -----: |
+|  1 | Иван   |            10 |  70000 |
+|  2 | Анна   |            20 |  90000 |
+|  3 | Пётр   |            10 |  65000 |
+|  4 | Олег   |            30 |  80000 |
+|  5 | Мария  |            40 |  85000 |
+|  6 | Сергей |            10 |  95000 |
 
-id	department
-10	IT
-20	Finance
-30	HR
-50	Marketing
+| id | department_name |
+| -: | --------------- |
+| 10 | IT              |
+| 20 | Finance         |
+| 30 | HR              |
+| 50 | Marketing       |
 
-employees
-
-name	department_id	salary
-Иван	10	70000
-Пётр	10	65000
-Сергей	10	95000
-Анна	20	90000
-Олег	30	80000
 
 
 
